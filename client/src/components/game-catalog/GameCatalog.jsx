@@ -9,8 +9,6 @@ export default function GameCatalog() {
     gameService.getAll().then((result) => setGames(result));
   }, []);
 
-  console.log(games);
-
   return (
     <>
       {/* Catalogue */}

@@ -4,6 +4,7 @@ export default function Login({ onLogin }) {
   const navigate = useNavigate();
   const loginAction = (formData) => {
     const email = formData.get("email");
+    console.log(email);
 
     onLogin(email);
     navigate("/games");

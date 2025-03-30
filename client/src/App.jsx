@@ -31,7 +31,7 @@ function App() {
           ></Route>
           <Route
             path="/games/:gameId/details"
-            element={<GameDetails></GameDetails>}
+            element={<GameDetails email={email}></GameDetails>}
           ></Route>
           <Route
             path="/games/:gameId/edit"
