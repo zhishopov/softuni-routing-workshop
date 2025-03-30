@@ -14,6 +14,8 @@ function App() {
       <main id="main-content">
         <Routes>
           <Route index element={<Home></Home>}></Route>
+          <Route path="/login" element={<Login></Login>}></Route>
+          <Route path="/register" element={<Register></Register>}></Route>
         </Routes>
       </main>
     </div>
