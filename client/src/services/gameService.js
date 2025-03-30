@@ -20,4 +20,7 @@ export default {
   delete(gameId) {
     return request.delete(`${baseUrl}/${gameId}`);
   },
+  edit(gameId, gameData) {
+    return request.put(`${baseUrl}/${gameId}`, { ...gameData, _id: gameId });
+  },
 };
