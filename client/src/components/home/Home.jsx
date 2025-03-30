@@ -43,7 +43,7 @@ export default function Home() {
               <span>☆</span>
             </div>
             <div className="data-buttons">
-              <a href="#" class="btn details-btn">
+              <a href="#" className="btn details-btn">
                 Details
               </a>
             </div>
@@ -61,7 +61,7 @@ export default function Home() {
               <span>☆</span>
             </div>
             <div className="data-buttons">
-              <a href="#" class="btn details-btn">
+              <a href="#" className="btn details-btn">
                 Details
               </a>
             </div>
